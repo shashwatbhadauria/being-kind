@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import App from "./App";
 import Home from "./pages/Home/Home";
 import AboutUs from "./pages/AboutUs/AboutUs";
@@ -11,7 +11,7 @@ import CampaignDetail from "./pages/CampaignsAdvocacy/CampaignDetail";
 import OurWork from "./pages/OurWork/OurWork";
 import NotFound from "./pages/NotFound/NotFound";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     element: <App />, // Navbar + <Outlet /> + Footer
     children: [
