@@ -97,6 +97,11 @@ export default function Home() {
 
           {/* Big headline — alternating navy / gold */}
           <div className="hero-content">
+            <img
+              src="/images/loader-cat.gif"
+              alt="Loader Cat Mascot"
+              className="hero-mascot"
+            />
             <h1 className="hero-h1">
               Every Stray<br />
               <em>Deserves</em><br />
