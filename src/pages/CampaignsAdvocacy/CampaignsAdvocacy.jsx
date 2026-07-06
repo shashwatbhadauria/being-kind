@@ -82,7 +82,7 @@ export default function CampaignsAdvocacy() {
                   <Card className="flex flex-col h-full cursor-pointer group">
                     <div className="aspect-video bg-gray-100 relative overflow-hidden">
                       <img 
-                        src="/src/assets/images/hero_bg.png" 
+                        src="./images/hero_bg.png" 
                         alt={campaign.title} 
                         className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
                       />

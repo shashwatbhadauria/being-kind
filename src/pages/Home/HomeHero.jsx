@@ -11,7 +11,7 @@ export default function HomeHero() {
       {/* Background Image with darken overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-gray-900 opacity-60"
-        style={{ backgroundImage: `url('/src/assets/images/hero_bg.png')` }}
+        style={{ backgroundImage: `url('./images/hero_bg.png')` }}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 via-gray-900/40 to-transparent" />
 

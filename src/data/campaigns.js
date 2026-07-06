@@ -16,7 +16,7 @@ Our petition calls for:
 3. Mandatory setting up of animal welfare committees in every municipal ward.
 
 We need 5,000 signatures to submit this petition alongside our legal briefing. Join us in making the law work for those who have no voice.`,
-    image: "/src/assets/images/animal_writes.webp"
+    image: "./images/animal_writes.webp"
   },
   {
     id: "c2",
@@ -32,7 +32,7 @@ We need 5,000 signatures to submit this petition alongside our legal briefing. J
 On June 5th, over 12,000 animal advocates took to X (formerly Twitter) to trend #SaveIndianDogs, tag key municipal and state officials, and demand transparency.
 
 The impact was immediate: the municipal body agreed to meet with animal welfare groups, released the illegally impounded dogs, and recommitted to the Animal Birth Control (ABC) Rules 2023.`,
-    image: "/src/assets/images/tweet_thon.webp"
+    image: "./images/tweet_thon.webp"
   },
   {
     id: "c3",
@@ -48,6 +48,6 @@ The impact was immediate: the municipal body agreed to meet with animal welfare 
 Every vaccinated dog will receive a splash of animal-safe dye on their forehead for identification, and their data will be uploaded to our registry.
 
 We are currently fundraising for vaccination vials and medical supplies. A donation of just $5 (INR 400) fully vaccinates and deworms one street dog.`,
-    image: "/src/assets/images/rabies_drive.webp"
+    image: "./images/rabies_drive.webp"
   }
 ];

@@ -94,7 +94,7 @@ export default function CampaignDetail() {
           <div className="lg:col-span-7 space-y-6">
             <div className="aspect-video rounded-3xl overflow-hidden bg-gray-100 mb-8">
               <img 
-                src="/src/assets/images/hero_bg.png" 
+                src="./images/hero_bg.png" 
                 alt={campaign.title} 
                 className="w-full h-full object-cover"
               />

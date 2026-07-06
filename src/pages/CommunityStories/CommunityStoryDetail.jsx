@@ -66,7 +66,7 @@ export default function CommunityStoryDetail() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 my-12">
         <div className="aspect-video md:aspect-[21/9] rounded-3xl overflow-hidden bg-gray-100 relative">
           <img 
-            src="/src/assets/images/hero_bg.png" 
+            src="./images/hero_bg.png" 
             alt={story.title} 
             className="w-full h-full object-cover"
           />

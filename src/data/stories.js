@@ -14,7 +14,7 @@ This incident highlight the deep bond of co-existence between community dogs and
     date: "June 15, 2026",
     category: "Coexistence",
     readTime: "3 min read",
-    image: "/src/assets/images/makarba_dog.webp"
+    image: "./images/makarba_dog.webp"
   },
   {
     id: "2",
@@ -31,7 +31,7 @@ PK's story is a reminder of the vulnerability of community dogs to false complai
     date: "May 28, 2026",
     category: "Advocacy & Rescue",
     readTime: "4 min read",
-    image: "/src/assets/images/pk_therapy.webp"
+    image: "./images/pk_therapy.webp"
   },
   {
     id: "3",
@@ -48,6 +48,6 @@ By keeping community animals fed, we reduce food-scarcity aggression, vaccinate 
     date: "April 10, 2026",
     category: "Daily Feeding",
     readTime: "3 min read",
-    image: "/src/assets/images/feeding_drive.webp"
+    image: "./images/feeding_drive.webp"
   }
 ];

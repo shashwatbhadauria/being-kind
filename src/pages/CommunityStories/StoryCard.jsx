@@ -10,7 +10,7 @@ export default function StoryCard({ story }) {
         {/* Image / Aspect Ratio lock */}
         <div className="w-full aspect-[4/3] bg-gray-100 relative overflow-hidden">
           <img 
-            src="/src/assets/images/hero_bg.png" 
+            src="./images/hero_bg.png" 
             alt={story.title} 
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />

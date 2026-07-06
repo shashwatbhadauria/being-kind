@@ -12,22 +12,22 @@ const CAMPAIGNS = [
     tag: 'Ongoing Campaign',
     title: 'Daily Feeding Drive',
     desc: 'Every single day, our volunteers reach 500+ stray dogs across Mumbai with food, water, and care — because no dog should sleep hungry.',
-    image: '/images/feeding-scene.jpg',
-    imageFallback: '/images/hero-dog.png',
+    image: './images/feeding-scene.jpg',
+    imageFallback: './images/hero-dog.png',
   },
   {
     tag: 'Monthly Program',
     title: 'Vaccination Camp',
     desc: 'We run systematic ABC (Animal Birth Control) and rabies vaccination drives across local communities, protecting both animals and people.',
-    image: '/images/vaccination-camp.png',
-    imageFallback: '/images/vaccination-camp.png',
+    image: './images/vaccination-camp.png',
+    imageFallback: './images/vaccination-camp.png',
   },
   {
     tag: 'Awareness Initiative',
     title: 'Paws for Awareness',
     desc: 'We take our message to schools, colleges, and housing societies — building a generation that chooses compassion over cruelty.',
-    image: '/images/dogs-street.png',
-    imageFallback: '/images/dogs-street.png',
+    image: './images/dogs-street.png',
+    imageFallback: './images/dogs-street.png',
   },
 ];
 
@@ -98,7 +98,7 @@ export default function Home() {
           {/* Big headline — alternating navy / gold */}
           <div className="hero-content">
             <img
-              src="/images/loader-cat.gif"
+              src="./images/loader-cat.gif"
               alt="Loader Cat Mascot"
               className="hero-mascot"
             />
@@ -125,7 +125,7 @@ export default function Home() {
         {/* Right-side image with rounded top */}
         <div className="intro-image-block">
           <img
-            src="/images/hero-dog.png"
+            src="./images/hero-dog.png"
             alt="A stray dog in warm sunlight — a symbol of every animal Being Kind helps"
             loading="lazy"
           />
@@ -193,7 +193,7 @@ export default function Home() {
             <p className="benefit-desc">
               Every dog we reach gets{' '}
               <img
-                src="/images/hero-dog.png"
+                src="./images/hero-dog.png"
                 alt="dog inline"
                 className="inline-img"
               />{' '}
@@ -205,7 +205,7 @@ export default function Home() {
             <div className="blob-image-wrapper">
               <div className="blob-image-shape">
                 <img
-                  src="/images/dogs-street.png"
+                  src="./images/dogs-street.png"
                   alt="Stray dogs on a Mumbai street"
                   loading="lazy"
                 />
@@ -234,7 +234,7 @@ export default function Home() {
             <div className="blob-image-wrapper">
               <div className="blob-image-shape">
                 <img
-                  src="/images/vaccination-camp.png"
+                  src="./images/vaccination-camp.png"
                   alt="Volunteers caring for stray dogs"
                   loading="lazy"
                 />
@@ -298,7 +298,7 @@ export default function Home() {
         {/* 3b — Full-width image */}
         <div className="steps-image">
           <img
-            src="/images/vaccination-camp.png"
+            src="./images/vaccination-camp.png"
             alt="Being Kind volunteers at work"
             loading="lazy"
           />
