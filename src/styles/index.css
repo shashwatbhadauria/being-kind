@@ -966,8 +966,14 @@ button {
 @media (max-width: 900px) {
   :root { --frame-size: 30px; }
 
-  .hero-blob { width: 80vw; height: 55vh; left: 10%; }
-  .hero-h1 { font-size: clamp(40px, 9vw, 72px); }
+  .hero-blob { 
+    width: 95vw; 
+    height: 95vw; 
+    left: 50%; 
+    top: 50%;
+  }
+  .hero-mascot { width: 120px; height: 120px; }
+  .hero-h1 { font-size: clamp(38px, 11vw, 60px); }
 
   .section-statement { max-width: 100%; font-size: clamp(22px, 5vw, 36px); }
 
